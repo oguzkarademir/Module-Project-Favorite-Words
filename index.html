@@ -3,7 +3,7 @@
 
 <head>
   <meta charset='utf8'>
-  <title>Arraying</title>
+  <title>Magic words</title>
 
   <link href="./style.css" rel="stylesheet" />
 
@@ -26,19 +26,62 @@
 </head>
 
 <body>
+  <header>
+    <h2>Favorite Words</h2>
+  </header>
 
-  <main>
-    <button onclick='displayHandler()'>view all words</button> <br>
-    <button onclick='addWordHandler()'>add a word</button> <br>
-    <br>
-    <button onclick='existsHandler()'>find a specific word</button> <br>
-    <button onclick='removeHandler()'>remove a specific word</button> <br>
-    <button onclick='replaceHandler()'>replace a specific word</button> <br>
-    <button onclick='searchHandler()'>search within the words</button> <br>
-    <br>
-    <button onclick='clearAllHandler()'>clear all words</button> <br>
+  <main class="container">
+
+    <div class="row">
+
+      <div class="buttons">
+          <button onclick='displayHandler()'>View all words</button>
+          <button onclick='addWordHandler()'>Add a word</button>
+      </div>
+
+      <div class="buttons">
+          <button onclick='existsHandler()'>Find a specific word</button>
+          <button onclick='removeHandler()'>Remove a specific word</button>
+      </div>
+
+      <div class="buttons">
+          <button onclick='replaceHandler()'>Replace a specific word</button>
+          <button onclick='searchHandler()'>Search within the words</button>
+      </div>
+
+      <button class= "reset" onclick='clearAllHandler()'>Clear all words</button>
+    
+    </div>
+    
   </main>
 
+  <footer>
+    
+    <div id="profile">
+      <h2>Created by :</h2>
+
+      <div id="olga">
+        <a href="https://github.com/okozmovskaya?tab=repositories"><img class="image alex" src="./images/olga.jpg" alt="Alex img" /></a>
+      </div>
+
+      <div id="pavel">
+        <a href="https://github.com/pavelbidenko2018?tab=repositories"><img class="image alex" src="./images/pavel.jpg" alt="Alex img" /></a>
+      </div>
+
+      <div id="oguz">
+        <a href="https://github.com/oguzkarademir?tab=repositories"><img class="image alex" src="./images/53440164.jpg" alt="Alex img" /></a>
+      </div>
+
+      <div id="yauhenia">
+        <a href="https://github.com/yauheniya-askolkava?tab=repositories"><img class="image alex" src="./images/yauhenia.jpg" alt="Alex img" /></a>
+      </div>
+
+      <div id="sayed">
+        <a href="https://github.com/Sayed94h?tab=repositories"><img class="image alex" src="./images/sayed.jpg" alt="Alex img" /></a>
+      </div>
+
+    </div>
+  </footer>
 </body>
 
 </html>
