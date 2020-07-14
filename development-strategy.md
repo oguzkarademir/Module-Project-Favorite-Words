@@ -25,7 +25,7 @@ A simple webpage where we work collaboratively on arrays. You can add more than 
 
 **As a site visitor, **
 
-> assigned to `...`  
+> assigned to `Oguz`  
 > reviewers `...` , `...` and `...`
 
 ## Repo
@@ -48,7 +48,7 @@ This user story was developed on a branch called `....`
 
 **As a site visitor, **
 
-> assigned to `...`  
+> assigned to `Yauhenia`  
 > reviewers `...` , `...` and `...`
 
 ## Repo
@@ -71,7 +71,7 @@ This user story was developed on a branch called `....`
 
 **As a site visitor, **
 
-> assigned to `...`  
+> assigned to `Olga`  
 > reviewers `...` , `...` and `...`
 
 ## Repo
@@ -94,7 +94,7 @@ This user story was developed on a branch called `....`
 
 **As a site visitor, **
 
-> assigned to `...`  
+> assigned to `Oguz`  
 > reviewers `...` , `...` and `...`
 
 ## Repo
@@ -117,7 +117,7 @@ This user story was developed on a branch called `....`
 
 **As a site visitor, **
 
-> assigned to `...`  
+> assigned to `Pavel`  
 > reviewers `...` , `...` and `...`
 
 ## Repo
@@ -140,7 +140,7 @@ This user story was developed on a branch called `....`
 
 **As a site visitor, **
 
-> assigned to `...`  
+> assigned to `Olga`  
 > reviewers `...` , `...` and `...`
 
 ## Repo
@@ -163,7 +163,7 @@ This user story was developed on a branch called `....`
 
 **As a site visitor, **
 
-> assigned to `...`  
+> assigned to `Sayed`  
 > reviewers `...` , `...` and `...`
 
 ## Repo
