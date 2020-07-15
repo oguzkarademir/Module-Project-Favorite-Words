@@ -3,15 +3,18 @@ console.log('--- loading: display-all.js');
 
 // reverse engineering!
 //   the handler has no tests, study the demo to write this function
-const displayHandler = (message = '', arrayToDisplay = words) => {
+
+const displayHandler = (message = 'all words', arrayToDisplay = words) => {
   debugger;
   const combineStrings = (acc, next) => {
-    return _;
+    return `${acc}\n${String(next)}`;
   }
   const alertMessage = arrayToDisplay
-    ._(_, _);
-  alert(_);
+    .reduce(combineStrings, '');
+  alert(`${message}:${alertMessage}`);
+  document.getElementById('result').innerHTML = `${alertMessage}`;
 };
+
 
 
 /* about default parameters
