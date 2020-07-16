@@ -26,23 +26,24 @@ A simple webpage where we work collaboratively on arrays. You can add more than 
 **As a site visitor, **
 
 > assigned to `Oguz`  
-> reviewers `...` , `...` and `...`
+> reviewers `Olga` , `Pavel` and `Sayed`
 
 ## Repo
 
-This user story was developed on a branch called `....`
+This user story was developed on a branch called `display`
 
 ### HTML
 
-- 
+- Added a box to displaying words and using with `innerHTML`
 
 ### CSS
 
-- 
+- Added some features for better user interface
 
 ## JS
 
-- 
+- Added `reduce()` method to reduces the global array `words` to a single value.   
+- Added `document.getElementById('').innerHTML` to display the result in the webpage
 
 ## 2. Add-word
 

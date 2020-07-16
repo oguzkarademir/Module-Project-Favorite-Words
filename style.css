@@ -23,6 +23,26 @@ header {
   font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+section {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  width: 20%;
+  opacity: 0.7;
+  height: 150px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section h2 {
+  color: black;
+  font-size: 24px;
+  font-family: monospace;
+}
+section p {
+  color: darkgreen;
+  font-size: 20px;
+}
 
 .container {
   text-align: center;
