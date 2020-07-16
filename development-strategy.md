@@ -15,7 +15,7 @@ A simple webpage where we work collaboratively on arrays. You can add more than 
 - Created a new repository [generated](https://github.com/HackYourFutureBelgium/favorite-words)
 - Cloned the repository
 - Added Html and Css features for user interface
-- Started `development-strategy.md` file 
+- Started `development-strategy.md` file
 - Added [this wireframe](.\images\wireframe.png)
 - Created issues
 - Pushed the changes
@@ -47,26 +47,19 @@ This user story was developed on a branch called `display`
 
 ## 2. Add-word
 
-**As a site visitor, **
+**As a site visitor, I would like to add my word by pressing a button!**
 
 > assigned to `Yauhenia`  
-> reviewers `...` , `...` and `...`
+> reviewers `Oguz` , `Sayed` and `Olga`
 
 ## Repo
 
-This user story was developed on a branch called `....`
-
-### HTML
-
-- 
-
-### CSS
-
-- 
+This user story was developed on a branch called `add_word`
 
 ## JS
 
-- 
+- The core of function logic is input and the method "push"
+- As well as a condition in case there is no input
 
 ## 3. Remove-word
 
@@ -81,15 +74,15 @@ This user story was developed on a branch called `....`
 
 ### HTML
 
-- 
+-
 
 ### CSS
 
-- 
+-
 
 ## JS
 
-- 
+-
 
 ## 4. Find-word
 
@@ -104,15 +97,15 @@ This user story was developed on a branch called `....`
 
 ### HTML
 
-- 
+-
 
 ### CSS
 
-- 
+-
 
 ## JS
 
-- 
+-
 
 ## 5. Replace-word
 
@@ -127,15 +120,15 @@ This user story was developed on a branch called `....`
 
 ### HTML
 
-- 
+-
 
 ### CSS
 
-- 
+-
 
 ## JS
 
-- 
+-
 
 ## 6. Search-letters/word
 
@@ -150,15 +143,15 @@ This user story was developed on a branch called `....`
 
 ### HTML
 
-- 
+-
 
 ### CSS
 
-- 
+-
 
 ## JS
 
-- 
+-
 
 ## 7. Clear-all
 
