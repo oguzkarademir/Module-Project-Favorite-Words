@@ -63,7 +63,7 @@ This user story was developed on a branch called `add_word`
 
 ## 3. Remove-word
 
-**As a site visitor, **
+**As a site visitor, I want to have possibility remove any word from the array**
 
 > assigned to `Olga`  
 > reviewers `Oguz` and `Sayed`
@@ -134,26 +134,27 @@ This user story was developed on a branch called `....`
 
 ## 6. Search-letters/word
 
-**As a site visitor, **
+**As a site visitor, I want to enter an symbol (letter or word) and see all wirds from array which contain this symbol**
 
 > assigned to `Olga`  
-> reviewers `...` , `...` and `...`
+> reviewers `Oguz` and `Sayed`
 
 ## Repo
 
-This user story was developed on a branch called `....`
+This user story was developed on a branch called `search`
 
 ### HTML
 
--
+It hasn't changes.
 
 ### CSS
 
--
+It hasn't changes.
 
 ## JS
 
--
+- Use `includes`-method for determine whether an array contains a queried element
+- Use `filter`-method for return items of array with queried symbol
 
 ## 7. Clear-all
 
