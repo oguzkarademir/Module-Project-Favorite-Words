@@ -162,23 +162,24 @@ This user story was developed on a branch called `....`
 
 ## 7. Clear-all
 
-**As a site visitor, **
+**As a site visitor, I want to be able to destroy the entire array and clear all what others have saved so far by just one click**
 
 > assigned to `Sayed`  
-> reviewers `...` , `...` and `...`
+> reviewers `Oguz`
 
 ## Repo
 
-This user story was developed on a branch called `....`
+This user story was developed on a branch called `clear-all`
 
 ### HTML
 
-- 
+- Nothing changed
 
 ### CSS
 
-- 
+- Nothing changed
 
 ## JS
 
-- 
+- [x] assigned empty array to the variable `words`
+- [x] wrote alert message `all words have been cleared`
