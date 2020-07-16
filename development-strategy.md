@@ -142,23 +142,23 @@ This user story was developed on a branch called `....`
 **As a site visitor, **
 
 > assigned to `Olga`  
-> reviewers `...` , `...` and `...`
+> reviewers `Oguz` and `Sayed`
 
 ## Repo
 
-This user story was developed on a branch called `....`
+This user story was developed on a branch called `search`
 
 ### HTML
 
-- 
+It hasn't changes.
 
 ### CSS
 
-- 
+It hasn't changes.
 
 ## JS
 
-- 
+Use `filter`-method for return items of array with queried symbol
 
 ## 7. Clear-all
 
