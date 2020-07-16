@@ -23,7 +23,7 @@ A simple webpage where we work collaboratively on arrays. You can add more than 
 
 ## 1. Display
 
-**As a site visitor, **
+**As a site visitor, I want to see all words**
 
 > assigned to `Oguz`  
 > reviewers `Olga` , `Pavel` and `Sayed`
@@ -63,7 +63,7 @@ This user story was developed on a branch called `add_word`
 
 ## 3. Remove-word
 
-**As a site visitor, **
+**As a site visitor, I want to have possibility remove any word from the array**
 
 > assigned to `Olga`  
 > reviewers `Oguz` and `Sayed`
@@ -88,26 +88,26 @@ nothing to change
 
 ## 4. Find-word
 
-**As a site visitor, I want to have possibility remove any word from the array**
+**As a site visitor, I want to see if my word is in all words or not**
 
 > assigned to `Oguz`  
-> reviewers `...` , `...` and `...`
+> reviewers `Olga` and `Sayed`
 
 ## Repo
 
-This user story was developed on a branch called `....`
+This user story was developed on a branch called `find-word`
 
 ### HTML
 
--
+- nothing changed
 
 ### CSS
 
--
+- nothing changed
 
 ## JS
 
--
+- Added `find()` method to find if the user-input exists in `words` array or not
 
 ## 5. Replace-word
 
