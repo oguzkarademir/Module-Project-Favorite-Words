@@ -3,15 +3,15 @@ console.log('--- loading: search.js');
 
 const searchHandler = () => {
   debugger;
-  const userInput = prompt('');
-  if (_) {
+  const userInput = prompt('Enter a search query: letter, syllable or word');
+  if (userInput === null) {
     return;
   }
 
   const includesSubstring = (entry) => {
-    return _;
+    return entry.includes(userInput);
   };
-  const foundWords = words._(_);
 
-  displayHandler(``, _);
+  const foundWord = words.filter(includesSubstring);
+  displayHandler(`search results for "${userInput}"`, foundWord);
 };
