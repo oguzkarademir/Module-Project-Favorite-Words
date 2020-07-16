@@ -66,23 +66,25 @@ This user story was developed on a branch called `add_word`
 **As a site visitor, **
 
 > assigned to `Olga`  
-> reviewers `...` , `...` and `...`
+> reviewers `Oguz` and `Sayed`
 
 ## Repo
 
-This user story was developed on a branch called `....`
+This user story was developed on a branch called `remove`
 
 ### HTML
 
--
+nothing to change
 
 ### CSS
 
--
+nothing to change
 
 ## JS
 
--
+- Used `promt`-method for enter word which will be removed from array;
+- Used `find`-method for find entered word in the array;
+- Used `filter`-method for return new array without removed word.
 
 ## 4. Find-word
 
