@@ -9,10 +9,12 @@ const searchHandler = () => {
   }
 
   const includesSubstring = (entry) => {
-    return entry === userInput;
+    return entry.includes(userInput);
   };
-  const foundWord = words.filter(includesSubstring);
 
-  displayHandler(`search results for "${userInput}" ${foundWord}`, []);
+  const foundWord = words.filter(includesSubstring);
+  ;
+  
+  displayHandler(`search results for "${userInput}": \n ${foundWord}`, []);
   
 };
