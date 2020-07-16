@@ -39,6 +39,8 @@ section h2 {
   font-size: 24px;
   font-family: monospace;
 }
+
+
 section p {
   color: darkgreen;
   font-size: 20px;
@@ -99,7 +101,7 @@ footer {
   margin-bottom: 0;
 }
 footer #profile h2 {
-  color: aliceblue;
+  color: darkgreen;
   font-family: monospace;
   font-size: 1.5em;
 }
