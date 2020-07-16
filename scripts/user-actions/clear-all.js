@@ -3,6 +3,6 @@ console.log('--- loading: clear-all.js');
 
 const clearAllHandler = () => {
   debugger;
-  _;
-  alert('');
+  words = [];
+  displayHandler('all words have been cleared', words);
 };
