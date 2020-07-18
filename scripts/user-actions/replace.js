@@ -2,28 +2,33 @@
 console.log('--- loading: replace.js');
 
 const replaceHandler = () => {
-  debugger;
-  const userInput1 = prompt('enter the word to replace:');
-  if (userInput1 === null) {
-    return;
-  }
+    debugger;
+    const userInput1 = prompt('enter the word to replace:');
+    if (userInput1 === null) {
+        return;
+    }
 
-  const entryIsUserInput = (entry) => {
-    return _;
-  };
-  const inputExists = words._(_);
-  if (_) {
-    alert(``);
-    return;
-  }
+    const entryIsUserInput = (entry) => {
+        return entry === userInput1;
+    };
 
-  const userInput2 = prompt(``);
-  if (_) {
-    return;
-  }
+    const inputExists = words.find(entryIsUserInput);
+    if (!inputExists) {
+        alert(`"${userInput1}" does not exist`);
+        return;
+    }
 
-  const replaceWithInput2 = (entry) => { };
-  words = words._(replaceWithInput2);
+    const userInput2 = prompt(`enter a word to replace "${userInput1}":`);
+    if (!userInput2) {
+        return;
+    }
 
-  displayHandler(``);
+    const replaceWithInput2 = (entry) => {
+        if (entry === userInput1) return userInput2
+        else return entry;
+    };
+
+    words = words.map(replaceWithInput2);
+
+    displayHandler(`"${userInput1}" had been replaced with "${userInput2}"`, words);
 };
