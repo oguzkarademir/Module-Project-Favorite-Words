@@ -110,27 +110,27 @@ This user story was developed on a branch called `find-word`
 - Added `find()` method to find if the user-input exists in `words` array or not
 
 ## 5. Replace-word
-
-**As a site visitor, **
+**As a site visitor, one can use ```Replace word``` button, which calls a function which replaces a word in array with a user's input word**
 
 > assigned to `Pavel`  
+
 > reviewers `...` , `...` and `...`
 
 ## Repo
 
-This user story was developed on a branch called `....`
+This user story was developed on a branch called `replace`
 
 ### HTML
-
+No changes
 -
 
 ### CSS
-
+No changes
 -
 
 ## JS
 
--
+`find()` and `map()` array functions were used 
 
 ## 6. Search-letters/word
 
